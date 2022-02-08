@@ -806,6 +806,21 @@ Ensure the default browser behavior of the `hidden` attribute.
   --tw-gradient-stops: var(--tw-gradient-from), var(--tw-gradient-to, rgb(225 238 195 / 0));
 }
 
+.from-\[\#FBD3E9\] {
+  --tw-gradient-from: #FBD3E9;
+  --tw-gradient-stops: var(--tw-gradient-from), var(--tw-gradient-to, rgb(251 211 233 / 0));
+}
+
+.from-\[\#fbd3e9\] {
+  --tw-gradient-from: #fbd3e9;
+  --tw-gradient-stops: var(--tw-gradient-from), var(--tw-gradient-to, rgb(251 211 233 / 0));
+}
+
+.from-\[\#ec008c\] {
+  --tw-gradient-from: #ec008c;
+  --tw-gradient-stops: var(--tw-gradient-from), var(--tw-gradient-to, rgb(236 0 140 / 0));
+}
+
 .to-blue-500 {
   --tw-gradient-to: #3b82f6;
 }
@@ -840,6 +855,22 @@ Ensure the default browser behavior of the `hidden` attribute.
 
 .to-\[\#f05053\] {
   --tw-gradient-to: #f05053;
+}
+
+.to-\[\#BB377D\] {
+  --tw-gradient-to: #BB377D;
+}
+
+.to-\[\#bb377d\] {
+  --tw-gradient-to: #bb377d;
+}
+
+.to-\[\#\#fc6767\] {
+  --tw-gradient-to: ##fc6767;
+}
+
+.to-\[\#fc6767\] {
+  --tw-gradient-to: #fc6767;
 }
 
 .px-12 {
@@ -1075,6 +1106,11 @@ Ensure the default browser behavior of the `hidden` attribute.
   --tw-gradient-stops: var(--tw-gradient-from), var(--tw-gradient-to, rgb(236 72 153 / 0));
 }
 
+.hover\:from-sky-500:hover {
+  --tw-gradient-from: #0ea5e9;
+  --tw-gradient-stops: var(--tw-gradient-from), var(--tw-gradient-to, rgb(14 165 233 / 0));
+}
+
 .hover\:to-fuchsia-400:hover {
   --tw-gradient-to: #e879f9;
 }
@@ -1105,6 +1141,10 @@ Ensure the default browser behavior of the `hidden` attribute.
 
 .hover\:to-yellow-500:hover {
   --tw-gradient-to: #eab308;
+}
+
+.hover\:to-indigo-500:hover {
+  --tw-gradient-to: #6366f1;
 }
 
 .hover\:text-yellow-500:hover {
