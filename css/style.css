@@ -679,6 +679,16 @@ Ensure the default browser behavior of the `hidden` attribute.
   background-color: rgb(234 179 8 / var(--tw-bg-opacity));
 }
 
+.bg-green-400 {
+  --tw-bg-opacity: 1;
+  background-color: rgb(74 222 128 / var(--tw-bg-opacity));
+}
+
+.bg-gray-600 {
+  --tw-bg-opacity: 1;
+  background-color: rgb(75 85 99 / var(--tw-bg-opacity));
+}
+
 .bg-green-200 {
   --tw-bg-opacity: 1;
   background-color: rgb(187 247 208 / var(--tw-bg-opacity));
@@ -687,11 +697,6 @@ Ensure the default browser behavior of the `hidden` attribute.
 .bg-red-300 {
   --tw-bg-opacity: 1;
   background-color: rgb(252 165 165 / var(--tw-bg-opacity));
-}
-
-.bg-gray-600 {
-  --tw-bg-opacity: 1;
-  background-color: rgb(75 85 99 / var(--tw-bg-opacity));
 }
 
 .bg-yellow-300 {
@@ -806,16 +811,6 @@ Ensure the default browser behavior of the `hidden` attribute.
   --tw-gradient-stops: var(--tw-gradient-from), var(--tw-gradient-to, rgb(225 238 195 / 0));
 }
 
-.from-\[\#FBD3E9\] {
-  --tw-gradient-from: #FBD3E9;
-  --tw-gradient-stops: var(--tw-gradient-from), var(--tw-gradient-to, rgb(251 211 233 / 0));
-}
-
-.from-\[\#fbd3e9\] {
-  --tw-gradient-from: #fbd3e9;
-  --tw-gradient-stops: var(--tw-gradient-from), var(--tw-gradient-to, rgb(251 211 233 / 0));
-}
-
 .from-\[\#ec008c\] {
   --tw-gradient-from: #ec008c;
   --tw-gradient-stops: var(--tw-gradient-from), var(--tw-gradient-to, rgb(236 0 140 / 0));
@@ -855,18 +850,6 @@ Ensure the default browser behavior of the `hidden` attribute.
 
 .to-\[\#f05053\] {
   --tw-gradient-to: #f05053;
-}
-
-.to-\[\#BB377D\] {
-  --tw-gradient-to: #BB377D;
-}
-
-.to-\[\#bb377d\] {
-  --tw-gradient-to: #bb377d;
-}
-
-.to-\[\#\#fc6767\] {
-  --tw-gradient-to: ##fc6767;
 }
 
 .to-\[\#fc6767\] {
@@ -1014,6 +997,11 @@ Ensure the default browser behavior of the `hidden` attribute.
   color: rgb(255 255 255 / var(--tw-text-opacity));
 }
 
+.text-slate-700 {
+  --tw-text-opacity: 1;
+  color: rgb(51 65 85 / var(--tw-text-opacity));
+}
+
 .text-gray-600 {
   --tw-text-opacity: 1;
   color: rgb(75 85 99 / var(--tw-text-opacity));
@@ -1027,6 +1015,11 @@ Ensure the default browser behavior of the `hidden` attribute.
 .text-gray-700 {
   --tw-text-opacity: 1;
   color: rgb(55 65 81 / var(--tw-text-opacity));
+}
+
+.text-emerald-50 {
+  --tw-text-opacity: 1;
+  color: rgb(236 253 245 / var(--tw-text-opacity));
 }
 
 .shadow-lg {
@@ -1047,6 +1040,11 @@ Ensure the default browser behavior of the `hidden` attribute.
   box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
 }
 
+.drop-shadow-2xl {
+  --tw-drop-shadow: drop-shadow(0 25px 25px rgb(0 0 0 / 0.15));
+  filter: var(--tw-blur) var(--tw-brightness) var(--tw-contrast) var(--tw-grayscale) var(--tw-hue-rotate) var(--tw-invert) var(--tw-saturate) var(--tw-sepia) var(--tw-drop-shadow);
+}
+
 .hover\:bg-white:hover {
   --tw-bg-opacity: 1;
   background-color: rgb(255 255 255 / var(--tw-bg-opacity));
@@ -1060,6 +1058,21 @@ Ensure the default browser behavior of the `hidden` attribute.
 .hover\:bg-yellow-500:hover {
   --tw-bg-opacity: 1;
   background-color: rgb(234 179 8 / var(--tw-bg-opacity));
+}
+
+.hover\:bg-sky-700:hover {
+  --tw-bg-opacity: 1;
+  background-color: rgb(3 105 161 / var(--tw-bg-opacity));
+}
+
+.hover\:bg-sky-400:hover {
+  --tw-bg-opacity: 1;
+  background-color: rgb(56 189 248 / var(--tw-bg-opacity));
+}
+
+.hover\:bg-sky-300:hover {
+  --tw-bg-opacity: 1;
+  background-color: rgb(125 211 252 / var(--tw-bg-opacity));
 }
 
 .hover\:bg-gradient-to-r:hover {
@@ -1106,11 +1119,6 @@ Ensure the default browser behavior of the `hidden` attribute.
   --tw-gradient-stops: var(--tw-gradient-from), var(--tw-gradient-to, rgb(236 72 153 / 0));
 }
 
-.hover\:from-sky-500:hover {
-  --tw-gradient-from: #0ea5e9;
-  --tw-gradient-stops: var(--tw-gradient-from), var(--tw-gradient-to, rgb(14 165 233 / 0));
-}
-
 .hover\:to-fuchsia-400:hover {
   --tw-gradient-to: #e879f9;
 }
@@ -1141,10 +1149,6 @@ Ensure the default browser behavior of the `hidden` attribute.
 
 .hover\:to-yellow-500:hover {
   --tw-gradient-to: #eab308;
-}
-
-.hover\:to-indigo-500:hover {
-  --tw-gradient-to: #6366f1;
 }
 
 .hover\:text-yellow-500:hover {
